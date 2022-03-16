@@ -10,8 +10,8 @@ if (wordAlenght > wordBlenght ){
     numOutput.innerHTML = `<div class="col"> ${(wordInputA)}</div>`;
 } 
 else if (wordAlenght  === wordBlenght){
-    numOutput.innerHTML = `<div class="col"> Le due parole sono lunghe uguale.${(wordInputA)} ${(wordInputB)}</div>`;
+    wordOutput .innerHTML = `<div class="col"> Le due parole sono lunghe uguale.${(wordInputA)} ${(wordInputB)}</div>`;
 } 
 else {
-    numOutput.innerHTML = `<div class="col"> ${(wordInputB)}</div>`;
+    wordOutput .innerHTML = `<div class="col"> ${(wordInputB)}</div>`;
 }
