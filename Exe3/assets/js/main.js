@@ -1,6 +1,6 @@
 // Dichiarazione variabili
 let sommaOutput = document.getElementById("outPut");  
-let sommaNumbers;
+let sommaNumbers = 0;
 
 // Richiesta di due numeri col
 let numInput0 = prompt ("Inserisci il primo numero: ");
@@ -23,7 +23,7 @@ let numInput8 = prompt ("Inserisci il nono numero: ");
 parseInt(numInput8);
 let numInput9 = prompt ("Inserisci il decimo numero: ");
 Math.floor(numInput9);
-sommaNumbers = numInput0.value + numInput1.value + numInput2.value + numInput3.value + numInput4.value + numInput5.value + numInput6.value + numInput7.value + numInput8.value + numInput9.value; 
+sommaNumbers = numInput0 + numInput1 + numInput2 + numInput3 + numInput4 + numInput5 + numInput6 + numInput7 + numInput8 + numInput9; 
 sommaOutput.innerHTML = `<div class="col"> Le somma di tutti i numeri è: ${(sommaNumbers)}</div>`;
 
   
