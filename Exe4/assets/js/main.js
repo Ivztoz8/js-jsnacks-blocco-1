@@ -13,7 +13,7 @@ let listaInvitatiBG = [
     "Walter Chase",
     "Cops",
     "Cop"];
-console.log(listaInvitatiBG);
+//console.log(listaInvitatiBG);
 
 
 // Richiesta di 10 numeri e poi somma e sviluppa l'output in HTML
