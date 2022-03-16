@@ -7,7 +7,7 @@ let wordInputB = prompt ("Inserire la seconda parola: ");
 let wordAlenght = wordInputA.length;
 let wordBlenght = wordInputB.length;
 if (wordAlenght > wordBlenght ){
-    numOutput.innerHTML = `<div class="col"> ${(wordInputA)}</div>`;
+    wordOutput.innerHTML = `<div class="col"> ${(wordInputA)}</div>`;
 } 
 else if (wordAlenght  === wordBlenght){
     wordOutput .innerHTML = `<div class="col"> Le due parole sono lunghe uguale.${(wordInputA)} ${(wordInputB)}</div>`;
